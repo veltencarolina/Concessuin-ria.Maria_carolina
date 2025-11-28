@@ -1,5 +1,5 @@
 #======================= ESTOQUES =========================#
-
+# trabaio
 Aluguel_carros = [
     ("onix", "chevrolet", 76318.00),
     ("corolla", "toyota", 10701.5),
