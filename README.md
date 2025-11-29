@@ -1,0 +1,7 @@
+Esse código é basicamente um sistema de loja de carros, onde o cliente tem opção de vender um carro, alugar  ou comprar. No começo, o programa cria duas listas: uma com os carros que podem ser alugados e outra com carros disponiveis pra vender. Carros com diversos modelos, marcas e preços.
+Depois, o programa pede ao cliente colocar nome, telefone e quanto de dinheiro esta disponivel na conta. Esse saldo vai sendo atualizado conforme a pessoa faz as operações.
+depois as funções.
+A primeira é a de venda de carro, onde o cliente diz qual carro quer vender. O sistema procura o carro numa lista interna, calcula quanto a loja vai pagar (88% do valor), mostra o preço e pergunta se o cliente quer continuar. Se sim, o dinheiro vai pro saldo da pessoa e o carro entra no estoque da loja.
+A segunda função é a de aluguel. O cliente escolhe um modelo e marca, o sistema vê se tem no estoque, pergunta quantos dias a pessoa quer ficar com o carro e calcula o valor final (R$ 77 por dia). Se o cliente tiver saldo e aceitar, ele paga e o carro sai da lista de aluguel.
+A terceira função é a de compra de carro. Funciona parecido: o cliente escolhe um carro disponível, o sistema calcula o preço com 25% de aumento, e se a pessoa tiver dinheiro e aceitar, compra o carro e o valor é descontado do saldo.
+Por fim, tem o menu, que fica aparecendo até o cliente escolher sair. Ele mostra as opções: vender, alugar, comprar ou ver o saldo final. Cada escolha chama uma das funções. até escolher sair.
